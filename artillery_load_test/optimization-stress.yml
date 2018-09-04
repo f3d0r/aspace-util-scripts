@@ -12,4 +12,4 @@ scenarios:
   - name: "Get Drive-Bike Route"
     flow:
       - post:
-          url: "/get_drive_bike_route?origin_lat=47.7930&origin_lng=-122.3584&dest_lat=47.6057&dest_lng=-122.3336"
+          url: "/get_drive_walk_route?origin_lat=47.7930&origin_lng=-122.3584&dest_lat=47.6057&dest_lng=-122.3336"
