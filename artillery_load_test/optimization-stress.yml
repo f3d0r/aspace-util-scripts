@@ -10,9 +10,9 @@ config:
     - duration: 30
       arrivalRate: 3
       name: "3 reqs/sec - 30 sec"
-    - duration: 30
+    - duration: 15
       arrivalRate: 4
-      name: "4 reqs/sec - 30 sec"
+      name: "4 reqs/sec - 15 sec"
 
 scenarios:
   - name: "Get Drive-Bike Route"
