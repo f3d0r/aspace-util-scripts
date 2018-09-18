@@ -2,17 +2,17 @@ config:
   target: "https://routing.trya.space/v1"
   phases:
     - duration: 60
-      arrivalRate: 5
-      name: "5 reqs/sec - 1 min"
+      arrivalRate: 4
+      name: "4 reqs/sec - 1 min"
     - duration: 60
-      arrivalRate: 10
-      name: "10 reqs/sec - 1 min"
+      arrivalRate: 8
+      name: "8 reqs/sec - 1 min"
     - duration: 60
-      arrivalRate: 15
-      name: "15 reqs/sec - 1 min"
+      arrivalRate: 12
+      name: "12 reqs/sec - 1 min"
     - duration: 60
-      arrivalRate: 20
-      name: "20 reqs/sec - 1 min"
+      arrivalRate: 16
+      name: "16 reqs/sec - 1 min"
 
 scenarios:
   - name: "Get Drive-Bike Route"
