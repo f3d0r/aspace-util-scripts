@@ -1,7 +1,7 @@
 var rp = require('request-promise');
 const csv = require("csvtojson");
 var accessToken = '***REMOVED***';
-const csvFilePath = 'Bicycle_Parking.csv'
+const csvFilePath = 'inrix_parking_locs.csv'
 var fs = require('fs');
 var reqsComplete = 0;
 
