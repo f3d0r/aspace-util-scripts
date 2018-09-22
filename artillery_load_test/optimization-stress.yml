@@ -1,21 +1,40 @@
 config:
   target: "https://routing.trya.space/v1"
+  # target: "https://routing-dev.trya.space/v1"
   phases:
+    - duration: 60
+      arrivalRate: 2
+      name: "2 reqs/sec - 1 min"
     - duration: 60
       arrivalRate: 4
       name: "4 reqs/sec - 1 min"
     - duration: 60
+      arrivalRate: 6
+      name: "6 reqs/sec - 1 min"
+    - duration: 60
       arrivalRate: 8
       name: "8 reqs/sec - 1 min"
+    - duration: 60
+      arrivalRate: 10
+      name: "10 reqs/sec - 1 min"
     - duration: 60
       arrivalRate: 12
       name: "12 reqs/sec - 1 min"
     - duration: 60
+      arrivalRate: 14
+      name: "14 reqs/sec - 1 min"
+    - duration: 60
       arrivalRate: 16
       name: "16 reqs/sec - 1 min"
+    - duration: 60
+      arrivalRate: 18
+      name: "18 reqs/sec - 1 min"
+    - duration: 60
+      arrivalRate: 20
+      name: "20 reqs/sec - 1 min"
 
 scenarios:
   - name: "Get Drive-Bike Route"
     flow:
       - post:
-          url: "/get_drive_walk_route?origin_lat=47.7930&origin_lng=-122.3584&dest_lat=47.6057&dest_lng=-122.3336"
+          url: "/get_drive_bike_route?origin_lat=47.7930&origin_lng=-122.3580&dest_lat=47.6045&dest_lng=-122.3336"
