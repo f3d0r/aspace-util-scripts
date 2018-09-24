@@ -17,9 +17,9 @@ config:
     - duration: 60
       arrivalRate: 10
       name: "10 reqs/sec - 1 min"
-    # - duration: 60
-    #   arrivalRate: 12
-    #   name: "12 reqs/sec - 1 min"
+    - duration: 60
+      arrivalRate: 12
+      name: "12 reqs/sec - 1 min"
     # - duration: 60
     #   arrivalRate: 14
     #   name: "14 reqs/sec - 1 min"
