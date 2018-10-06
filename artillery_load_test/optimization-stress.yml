@@ -37,4 +37,4 @@ scenarios:
   - name: "Get Drive-Bike Route"
     flow:
       - post:
-          url: "/get_drive_bike_route?origin_lat=47.756757299925596&origin_lng=-122.36341783859142&dest_lat=47.605643455466158&dest_lng=-122.33108569178981&session_starting=0&access_code=07fa1e185317402c043cff15c13da745&device_id=e2fad51a-da1c-40b1-9c7a-e8a12fbb3cb5"
+          url: "/***REMOVED***"
