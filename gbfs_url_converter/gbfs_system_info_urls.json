@@ -1,12 +1,12 @@
 {
-    "Abu dhabi ": {
+    "ADCB Bikeshare": {
         "id": "ABU",
         "region": "AE",
         "stationStatusURL": "https://api-core.bikeshare.ae/gbfs/en/station_status.json",
         "systemInfoURL": "https://api-core.bikeshare.ae/gbfs/en/system_information.json",
         "stationInfoURL": "https://api-core.bikeshare.ae/gbfs/en/station_information.json"
     },
-    "Mi Bici Tu Bici": {
+    "MiBiciTuBici": {
         "id": "MBTBROS",
         "region": "AR",
         "stationStatusURL": "http://www.mibicitubici.gob.ar/opendata/station_status.json",
@@ -55,7 +55,7 @@
         "systemInfoURL": "http://monashbikeshare.com/opendata/system_information.json",
         "stationInfoURL": "http://monashbikeshare.com/opendata/station_information.json"
     },
-    "Green Bike": {
+    "Greenbike Aruba": {
         "id": "greenbike_aruba",
         "region": "AW",
         "stationStatusURL": "https://aru.publicbikesystem.net/ube/gbfs/v1/en/station_status",
@@ -83,35 +83,63 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ct/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ct/en/station_information.json"
     },
-    "null": {
-        "id": "bike_share_hawaii",
-        "region": "US",
-        "stationStatusURL": "https://kona.publicbikesystem.net/ube/gbfs/v1/en/station_status",
-        "systemInfoURL": "https://kona.publicbikesystem.net/ube/gbfs/v1/en/system_information",
-        "stationInfoURL": "https://kona.publicbikesystem.net/ube/gbfs/v1/en/station_information"
+    "Bike Itaú - Pernambuco": {
+        "id": "bike_pe",
+        "region": "BR",
+        "stationStatusURL": "https://rec.publicbikesystem.net/ube/gbfs/v1/en/station_status",
+        "systemInfoURL": "https://rec.publicbikesystem.net/ube/gbfs/v1/en/system_information",
+        "stationInfoURL": "https://rec.publicbikesystem.net/ube/gbfs/v1/en/station_information"
     },
-    "": {
+    "Bike Itaú - Poa": {
+        "id": "bike_poa",
+        "region": "BR",
+        "stationStatusURL": "https://poa.publicbikesystem.net/ube/gbfs/v1/en/station_status",
+        "systemInfoURL": "https://poa.publicbikesystem.net/ube/gbfs/v1/en/system_information",
+        "stationInfoURL": "https://poa.publicbikesystem.net/ube/gbfs/v1/en/station_information"
+    },
+    "Bike Itaú - Rio": {
         "id": "bike_rio",
         "region": "BR",
         "stationStatusURL": "https://riodejaneiro.publicbikesystem.net/ube/gbfs/v1/en/station_status",
         "systemInfoURL": "https://riodejaneiro.publicbikesystem.net/ube/gbfs/v1/en/system_information",
         "stationInfoURL": "https://riodejaneiro.publicbikesystem.net/ube/gbfs/v1/en/station_information"
     },
-    "bike_share_toronto": {
+    "Bike Itaú - Salvador": {
+        "id": "bike_salvador",
+        "region": "BR",
+        "stationStatusURL": "https://salvador.publicbikesystem.net/ube/gbfs/v1/en/station_status",
+        "systemInfoURL": "https://salvador.publicbikesystem.net/ube/gbfs/v1/en/system_information",
+        "stationInfoURL": "https://salvador.publicbikesystem.net/ube/gbfs/v1/en/station_information"
+    },
+    "Bike Itaú - Sampa": {
+        "id": "bike_sampa",
+        "region": "BR",
+        "stationStatusURL": "https://saopaulo.publicbikesystem.net/ube/gbfs/v1/en/station_status",
+        "systemInfoURL": "https://saopaulo.publicbikesystem.net/ube/gbfs/v1/en/system_information",
+        "stationInfoURL": "https://saopaulo.publicbikesystem.net/ube/gbfs/v1/en/station_information"
+    },
+    "Bike VV": {
+        "id": "bike_vv",
+        "region": "BR",
+        "stationStatusURL": "https://vilavelha.publicbikesystem.net/ube/gbfs/v1/en/station_status",
+        "systemInfoURL": "https://vilavelha.publicbikesystem.net/ube/gbfs/v1/en/system_information",
+        "stationInfoURL": "https://vilavelha.publicbikesystem.net/ube/gbfs/v1/en/station_information"
+    },
+    "Bike Share Toronto": {
         "id": "bike_share_toronto",
         "region": "CA",
         "stationStatusURL": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/station_status",
         "systemInfoURL": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/system_information",
         "stationInfoURL": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/station_information"
     },
-    "Bixi_MTL": {
+    "BIXI-Montreal": {
         "id": "Bixi_MTL",
         "region": "CA",
         "stationStatusURL": "https://api-core.bixi.com/gbfs/en/station_status.json",
         "systemInfoURL": "https://api-core.bixi.com/gbfs/en/system_information.json",
         "stationInfoURL": "https://api-core.bixi.com/gbfs/en/station_information.json"
     },
-    "MobiBikes Vancouver": {
+    "Mobi Bike Share": {
         "id": "Mobibikes_CA_Vancouver",
         "region": "CA",
         "stationStatusURL": "https://vancouver-gbfs.smoove.pro/gbfs/en/station_status.json",
@@ -125,7 +153,7 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ca/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ca/en/station_information.json"
     },
-    "SoBi Hamilton": {
+    "Sobi Hamilton": {
         "id": "sobi_hamilton",
         "region": "CA",
         "stationStatusURL": "http://hamilton.socialbicycles.com/opendata/station_status.json",
@@ -153,7 +181,7 @@
         "systemInfoURL": "https://nicosia.publicbikesystem.net/ube/gbfs/v1/en/system_information",
         "stationInfoURL": "https://nicosia.publicbikesystem.net/ube/gbfs/v1/en/station_information"
     },
-    "VeloNet Praha": {
+    "Velonet": {
         "id": "velonet_praha",
         "region": "CZ",
         "stationStatusURL": "http://velonet.cz/opendata/station_status.json",
@@ -307,7 +335,7 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_el/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_el/en/station_information.json"
     },
-    "TURKU Poland": {
+    "TURKU": {
         "id": "nextbike_ft",
         "region": "FI",
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ft/en/station_status.json",
@@ -328,7 +356,7 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_eu/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_eu/en/station_information.json"
     },
-    "Dundee-Navigogo ": {
+    "Dundee-Navigogo": {
         "id": "nextbike_du",
         "region": "GB",
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_du/en/station_status.json",
@@ -397,6 +425,13 @@
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_kc/en/station_status.json",
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_kc/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_kc/en/station_information.json"
+    },
+    "Grad Makarska (Croatia)": {
+        "id": "nextbike_",
+        "region": "HR",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ma/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ma/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ma/en/station_information.json"
     },
     "Grad Metković (Croatia)": {
         "id": "nextbike_cm",
@@ -468,6 +503,13 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_br/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_br/en/station_information.json"
     },
+    "Općina Lastovo (Croatia)": {
+        "id": "nextbike_",
+        "region": "HR",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ol/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ol/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ol/en/station_information.json"
+    },
     "Porec bike share (Croatia)": {
         "id": "nextbike_cv",
         "region": "HR",
@@ -482,21 +524,21 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_bi/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_bi/en/station_information.json"
     },
-    "Smartbike (New Delhi - India)": {
+    "Smartbike Delhi": {
         "id": "nextbike_in",
         "region": "IN",
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_in/en/station_status.json",
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_in/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_in/en/station_information.json"
     },
-    "Smartbike (Hyderabad - India)": {
+    "Smartbike Hyderabad": {
         "id": "nextbike_hi",
         "region": "IN",
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_hi/en/station_status.json",
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_hi/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_hi/en/station_information.json"
     },
-    "Smartbike (Vijayawada - India)": {
+    "Smartbike Vijayawada": {
         "id": "nextbike_vi",
         "region": "IN",
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_vi/en/station_status.json",
@@ -531,7 +573,7 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_mt/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_mt/en/station_information.json"
     },
-    "MIBICI": {
+    "Mibici Guadalajara": {
         "id": "mibici",
         "region": "MX",
         "stationStatusURL": "https://guad.publicbikesystem.net/ube/gbfs/v1/en/station_status",
@@ -573,6 +615,13 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sp/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sp/en/station_information.json"
     },
+    "Częstochowski Rower Miejski Poland": {
+        "id": "nextbike_",
+        "region": "PL",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_jp/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_jp/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_jp/en/station_information.json"
+    },
     "Gliwicki Rower Miejski (SGRM) Poland": {
         "id": "nextbike_gm",
         "region": "PL",
@@ -586,6 +635,13 @@
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_gp/en/station_status.json",
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_gp/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_gp/en/station_information.json"
+    },
+    "Kaliski Rower Miejski Poland": {
+        "id": "nextbike_",
+        "region": "PL",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pk/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pk/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pk/en/station_information.json"
     },
     "Katowice Bike Poland": {
         "id": "nextbike_kw",
@@ -629,6 +685,13 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ln/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ln/en/station_information.json"
     },
+    "OK Bike Poland": {
+        "id": "nextbike_",
+        "region": "PL",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_km/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_km/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_km/en/station_information.json"
+    },
     "Opole Bike Poland": {
         "id": "nextbike_ob",
         "region": "PL",
@@ -650,7 +713,7 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pi/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pi/en/station_information.json"
     },
-    "Płocki Rower Miejski (PRM) Poland": {
+    "Płocki Rower Miejski (PRM)": {
         "id": "nextbike_ep",
         "region": "PL",
         "stationStatusURL": "https://poland.nextbike.net/maps/gbfs/v1/nextbike_ep/en/station_status.json",
@@ -706,6 +769,13 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_po/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_po/en/station_information.json"
     },
+    "Siemianowicki Rower Miejski Poland": {
+        "id": "nextbike_",
+        "region": "PL",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sc/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sc/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sc/en/station_information.json"
+    },
     "Sosnowiecki Rower Miejski Poland": {
         "id": "nextbike_pr",
         "region": "PL",
@@ -713,12 +783,47 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pr/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pr/en/station_information.json"
     },
+    "Stalowa Wola miasto rowerów Poland": {
+        "id": "nextbike_",
+        "region": "PL",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sw/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sw/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sw/en/station_information.json"
+    },
+    "Świętochłowicki Rower Miejski Poland – Wakacyjny P": {
+        "id": "nextbike_",
+        "region": "PL",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sd/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sd/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_sd/en/station_information.json"
+    },
     "System Legnicki Rower Miejski (SLRM) Poland": {
         "id": "nextbike_mp",
         "region": "PL",
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_mp/en/station_status.json",
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_mp/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_mp/en/station_information.json"
+    },
+    "System Rowerów Miejskich Jastrzębie Zdrój Poland": {
+        "id": "nextbike_",
+        "region": "PL",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pj/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pj/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pj/en/station_information.json"
+    },
+    "System Rowerów Miejskich w Pszczynie Poland": {
+        "id": "nextbike_",
+        "region": "PL",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ap/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ap/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_ap/en/station_information.json"
+    },
+    "Tyski Rower Miejski Poland": {
+        "id": "nextbike_",
+        "region": "PL",
+        "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pt/en/station_status.json",
+        "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pt/en/system_information.json",
+        "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_pt/en/station_information.json"
     },
     "VETURILO Poland": {
         "id": "nextbike_vp",
@@ -755,7 +860,7 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_cn/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_cn/en/station_information.json"
     },
-    "Arriva Nitra Slovakia": {
+    "Arriva Slovakia": {
         "id": "nextbike_as",
         "region": "SK",
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_as/en/station_status.json",
@@ -783,7 +888,7 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_kv/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_kv/en/station_information.json"
     },
-    "nextbike (Ukraine)": {
+    "nextbike Lviv (Ukraine)": {
         "id": "nextbike_nu",
         "region": "UA",
         "stationStatusURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_nu/en/station_status.json",
@@ -832,7 +937,14 @@
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_bikelnk/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_bikelnk/station_information.json"
     },
-    "BIKETOWNpdx": {
+    "Bikeshare Kona": {
+        "id": "bike_share_hawaii",
+        "region": "US",
+        "stationStatusURL": "https://kona.publicbikesystem.net/ube/gbfs/v1/en/station_status",
+        "systemInfoURL": "https://kona.publicbikesystem.net/ube/gbfs/v1/en/system_information",
+        "stationInfoURL": "https://kona.publicbikesystem.net/ube/gbfs/v1/en/station_information"
+    },
+    "BIKETOWN": {
         "id": "biketownpdx",
         "region": "US",
         "stationStatusURL": "http://biketownpdx.socialbicycles.com/opendata/station_status.json",
@@ -846,14 +958,14 @@
         "systemInfoURL": "https://hon.publicbikesystem.net/ube/gbfs/v1/en/system_information",
         "stationInfoURL": "https://hon.publicbikesystem.net/ube/gbfs/v1/en/station_information"
     },
-    "Bishop Ranch": {
+    "Bishop Ranch BRiteBikes": {
         "id": "bishop_ranch",
         "region": "US",
         "stationStatusURL": "http://britebikes.socialbicycles.com/opendata/station_status.json",
         "systemInfoURL": "http://britebikes.socialbicycles.com/opendata/system_information.json",
         "stationInfoURL": "http://britebikes.socialbicycles.com/opendata/station_information.json"
     },
-    "Boise GreenBike": {
+    "Boise Green Bike": {
         "id": "boise_greenbike",
         "region": "US",
         "stationStatusURL": "http://boise.greenbike.com/opendata/station_status.json",
@@ -867,7 +979,7 @@
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_boulder/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_boulder/station_information.json"
     },
-    "Bike Share Connect": {
+    "Breeze Bike Share": {
         "id": "bike_share_connect",
         "region": "US",
         "stationStatusURL": "http://santamonicabikeshare.com/opendata/station_status.json",
@@ -888,7 +1000,7 @@
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_bublr/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_bublr/station_information.json"
     },
-    "Capital Bikeshare": {
+    "Capital Bike Share": {
         "id": "cabi",
         "region": "US",
         "stationStatusURL": "https://gbfs.capitalbikeshare.com/gbfs/en/station_status.json",
@@ -902,7 +1014,7 @@
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_charlotte/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_charlotte/station_information.json"
     },
-    "Red Bike - Cincinnati": {
+    "Cincy Red Bike": {
         "id": "bcycle_cincyredbike",
         "region": "US",
         "stationStatusURL": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_status.json",
@@ -937,7 +1049,7 @@
         "systemInfoURL": "http://coast.socialbicycles.com/opendata/system_information.json",
         "stationInfoURL": "http://coast.socialbicycles.com/opendata/station_information.json"
     },
-    "CoGo Bike Share": {
+    "CoGo": {
         "id": "cogo",
         "region": "US",
         "stationStatusURL": "https://gbfs.cogobikeshare.com/gbfs/en/station_status.json",
@@ -1056,14 +1168,14 @@
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_heartland/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_heartland/station_information.json"
     },
-    "Houston BCycle": {
+    "Houston B-cycle": {
         "id": "bcycle_houston",
         "region": "US",
         "stationStatusURL": "https://gbfs.bcycle.com/bcycle_houston/station_status.json",
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_houston/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_houston/station_information.json"
     },
-    "Blue Bikes": {
+    "Hubway": {
         "id": "bluebikes",
         "region": "US",
         "stationStatusURL": "https://gbfs.bluebikes.com/gbfs/en/station_status.json",
@@ -1077,7 +1189,7 @@
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_indego/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_indego/station_information.json"
     },
-    "Pacers Bikeshare ": {
+    "Indy - Pacers Bikeshare": {
         "id": "bcycle_pacersbikeshare",
         "region": "US",
         "stationStatusURL": "https://gbfs.bcycle.com/bcycle_pacersbikeshare/station_status.json",
@@ -1098,7 +1210,7 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_nj/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_nj/en/station_information.json"
     },
-    "Juice Bike Share": {
+    "Juice": {
         "id": "juice_bike_share",
         "region": "US",
         "stationStatusURL": "http://www.juicebikeshare.com/opendata/station_status.json",
@@ -1147,14 +1259,14 @@
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_lametro/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_lametro/station_information.json"
     },
-    "MoGo": {
+    "Mogo Detroit": {
         "id": "mogo",
         "region": "US",
         "stationStatusURL": "https://det.publicbikesystem.net/ube/gbfs/v1/en/station_status",
         "systemInfoURL": "https://det.publicbikesystem.net/ube/gbfs/v1/en/system_information",
         "stationInfoURL": "https://det.publicbikesystem.net/ube/gbfs/v1/en/station_information"
     },
-    "Mountain Rides Bike Share": {
+    "Mountain Ride Bike Share": {
         "id": "mountain_rides_bike_share",
         "region": "US",
         "stationStatusURL": "http://mrbikeshare.org/opendata/station_status.json",
@@ -1182,7 +1294,7 @@
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_spokies/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_spokies/station_information.json"
     },
-    "PikeRide - Colorado Springs": {
+    "Pike Ride": {
         "id": "bcycle_coloradosprings",
         "region": "US",
         "stationStatusURL": "https://gbfs.bcycle.com/bcycle_coloradosprings/station_status.json",
@@ -1196,7 +1308,7 @@
         "systemInfoURL": "https://gbfs.bcycle.com/bcycle_rapidcity/system_information.json",
         "stationInfoURL": "https://gbfs.bcycle.com/bcycle_rapidcity/station_information.json"
     },
-    "Reddy Bikeshare": {
+    "Reddy Bike Share": {
         "id": "reddy_bikeshare",
         "region": "US",
         "stationStatusURL": "http://reddybikeshare.socialbicycles.com/opendata/station_status.json",
@@ -1210,7 +1322,7 @@
         "systemInfoURL": "http://relaybikeshare.socialbicycles.com/opendata/system_information.json",
         "stationInfoURL": "http://relaybikeshare.socialbicycles.com/opendata/station_information.json"
     },
-    "SWell Cycle": {
+    "San Antonio B-cycle": {
         "id": "bcycle_sanantonio",
         "region": "US",
         "stationStatusURL": "https://gbfs.bcycle.com/bcycle_sanantonio/station_status.json",
@@ -1231,7 +1343,7 @@
         "systemInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_wb/en/system_information.json",
         "stationInfoURL": "https://api.nextbike.net/maps/gbfs/v1/nextbike_wb/en/station_information.json"
     },
-    "SoBi Long Beach NY": {
+    "Sobi Long Beach": {
         "id": "sobi_long_beach_ny",
         "region": "US",
         "stationStatusURL": "http://sobilongbeach.com/opendata/station_status.json",
@@ -1259,21 +1371,21 @@
         "systemInfoURL": "http://topekametrobikes.org/opendata/system_information.json",
         "stationInfoURL": "http://topekametrobikes.org/opendata/station_information.json"
     },
-    "TuGo Bike Share": {
+    "Tugo": {
         "id": "tugo",
         "region": "US",
         "stationStatusURL": "https://tuc.publicbikesystem.net/ube/gbfs/v1/en/station_status",
         "systemInfoURL": "https://tuc.publicbikesystem.net/ube/gbfs/v1/en/system_information",
         "stationInfoURL": "https://tuc.publicbikesystem.net/ube/gbfs/v1/en/station_information"
     },
-    "University of Virginia": {
+    "Ubike": {
         "id": "university_of_virginia",
         "region": "US",
         "stationStatusURL": "http://ubike.virginia.edu/opendata/station_status.json",
         "systemInfoURL": "http://ubike.virginia.edu/opendata/system_information.json",
         "stationInfoURL": "http://ubike.virginia.edu/opendata/station_information.json"
     },
-    "WE-cycle": {
+    "We-cycle": {
         "id": "we_cycle",
         "region": "US",
         "stationStatusURL": "https://asp.publicbikesystem.net/ube/gbfs/v1/en/station_status",
