@@ -1,0 +1,5 @@
+Remove Velgo, it is outdated, and goes to some link-shortening service
+Remove bcycle dallas-fairpark, the GBFS link goes to a 404 page (not found)
+Remove all JUMP bike systems (they are already manually in the script)
+Remove all SPIN bike systems (they are already manually in the script)
+Remove Mobike DC, it goes to a 404 (page not found)
