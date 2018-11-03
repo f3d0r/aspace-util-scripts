@@ -36,12 +36,12 @@ async function execute() {
             throw new Error("Missing or too many URLs for System: " + jsonArray[index]["Name"])
         } else {
             var systemInfo = await getJSON(systemInfoURL[0].url);
-            output[systemInfo.data.name] = {}
-            output[systemInfo.data.name].id = systemInfo.data.system_id
-            output[systemInfo.data.name].region = jsonArray[index]["Country Code"]
-            output[systemInfo.data.name].stationStatusURL = stationStatusURL[0].url;
-            output[systemInfo.data.name].systemInfoURL = systemInfoURL[0].url;
-            output[systemInfo.data.name].stationInfoURL = stationInfoURL[0].url;
+            output[systemInfo.data.system_id] = {}
+            output[systemInfo.data.system_id].id = systemInfo.data.system_id
+            output[systemInfo.data.system_id].region = jsonArray[index]["Country Code"]
+            output[systemInfo.data.system_id].stationStatusURL = stationStatusURL[0].url;
+            output[systemInfo.data.system_id].systemInfoURL = systemInfoURL[0].url;
+            output[systemInfo.data.system_id].stationInfoURL = stationInfoURL[0].url;
             console.log("URL #" + (index + 1) + "/" + jsonArray.length + " COMPLETED: " + systemInfoURL[0].url);
         }
     }
