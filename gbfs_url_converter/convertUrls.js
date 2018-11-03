@@ -10,9 +10,16 @@ async function execute() {
     const jsonArray = await csv().fromFile(csvFilePath);
     console.log(jsonArray.length)
     var output = {};
+
+    var reqs = []
     for (var index = 0; index < jsonArray.length; index++) {
         var url = jsonArray[index]["Auto-Discovery URL"]
-        var dataReturn = await getJSON(url);
+        reqs.push(getJSON(url))
+    }
+    var responses = await Promise.all(reqs);
+
+    for (var index = 0; index < jsonArray.length; index++) {
+        var dataReturn = responses[index]
         var stationStatusURL = undefined;
         var systemInfoURL = undefined;
         var stationInfoURL = undefined;
@@ -35,10 +42,10 @@ async function execute() {
             output[systemInfo.data.name].stationStatusURL = stationStatusURL[0].url;
             output[systemInfo.data.name].systemInfoURL = systemInfoURL[0].url;
             output[systemInfo.data.name].stationInfoURL = stationInfoURL[0].url;
-            console.log("URL #" + (index + 1) + "/" + jsonArray.length + " COMPLETED: " + url);
+            console.log("URL #" + (index + 1) + "/" + jsonArray.length + " COMPLETED: " + systemInfoURL[0].url);
         }
     }
-    fs.writeFile('gbfs_system_info_urls.js', JSON.stringify(output), function (err) {
+    fs.writeFile('gbfs_system_info_urls.json', JSON.stringify(output), function (err) {
         if (err) {
             return console.log(err);
         }
