@@ -8,7 +8,7 @@ execute();
 
 async function execute() {
     const jsonArray = await csv().fromFile(csvFilePath);
-    console.log(jsonArray.length)
+    console.log("Analyzing " + jsonArray.length + " GBFS systems.")
     var output = {};
 
     var reqs = []
@@ -36,13 +36,14 @@ async function execute() {
             throw new Error("Missing or too many URLs for System: " + jsonArray[index]["Name"])
         } else {
             var systemInfo = await getJSON(systemInfoURL[0].url);
-            output[systemInfo.data.system_id] = {}
-            output[systemInfo.data.system_id].id = systemInfo.data.system_id
-            output[systemInfo.data.system_id].region = jsonArray[index]["Country Code"]
-            output[systemInfo.data.system_id].stationStatusURL = stationStatusURL[0].url;
-            output[systemInfo.data.system_id].systemInfoURL = systemInfoURL[0].url;
-            output[systemInfo.data.system_id].stationInfoURL = stationInfoURL[0].url;
-            console.log("URL #" + (index + 1) + "/" + jsonArray.length + " COMPLETED: " + systemInfoURL[0].url);
+            var systemName = jsonArray[index]["Name"]
+            output[systemName] = {}
+            output[systemName].id = systemInfo.data.system_id
+            output[systemName].region = jsonArray[index]["Country Code"]
+            output[systemName].stationStatusURL = stationStatusURL[0].url;
+            output[systemName].systemInfoURL = systemInfoURL[0].url;
+            output[systemName].stationInfoURL = stationInfoURL[0].url;
+            console.log("URL #" + (index + 1) + "/" + jsonArray.length + " COMPLETED: " + systemName);
         }
     }
     fs.writeFile('gbfs_system_info_urls.json', JSON.stringify(output), function (err) {
