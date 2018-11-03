@@ -52,7 +52,7 @@ function getJSON(url) {
         var options = {
             method: 'GET',
             url: url,
-            timeout: 15000,
+            timeout: 30000,
             json: true
         };
 
