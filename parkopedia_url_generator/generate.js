@@ -1,16 +1,16 @@
-var csv = require('csvtojson')
-var fs = require('fs')
+var csv = require('csvtojson');
+var fs = require('fs');
 
-const csvFilePath = './zipcodes.csv'
-const baseUrl = 'https://en.parkopedia.com/parking/'
+const csvFilePath = './zipcodes.csv';
+const baseUrl = 'https://en.parkopedia.com/parking/';
 
-execute()
+execute();
 
-var possibleStates = ["WA", "OR", "CA", "ID", "NV", "AZ", "UT", "WY", "MT", "CO", "NM", "TX", "AK", "IL", "DC", "NY"]
+var possibleStates = ["WA", "OR", "CA", "ID", "NV", "AZ", "UT", "WY", "MT", "CO", "NM", "TX", "AK", "IL", "DC", "NY"];
 
 async function execute() {
     const zipcodes = await csv().fromFile(csvFilePath);
-    var output = ""
+    var output = "";
     var exportNum = 0;
     zipcodes.forEach(function (currentZipCode) {
         if (possibleStates.indexOf(currentZipCode.state) != -1) {
@@ -18,7 +18,7 @@ async function execute() {
             var city = currentZipCode.city.toLowerCase().split(' ').join('_');
             var state = currentZipCode.state.toLowerCase();
             var zipcode = currentZipCode.zipcode;
-            output += baseUrl + city + "_" + state + "_" + zipcode + "/\n"
+            output += baseUrl + city + "_" + state + "_" + zipcode + "/\n";
         }
     });
     fs.writeFile('parkopediaUrls.txt', output, (err) => {

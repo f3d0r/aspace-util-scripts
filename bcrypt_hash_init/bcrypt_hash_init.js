@@ -8,6 +8,6 @@ stdin.addListener("data", function (d) {
         for (var x = 0; x <= 10000; x++) {
             console.log();
         }
-        console.log(hash)
+        console.log(hash);
     });
 });

@@ -1,7 +1,7 @@
 var rp = require('request-promise');
 const csv = require("csvtojson");
 var accessToken = '***REMOVED***';
-const csvFilePath = 'inrix_parking_locs.csv'
+const csvFilePath = 'inrix_parking_locs.csv';
 var fs = require('fs');
 var reqsComplete = 0;
 
@@ -31,7 +31,7 @@ csv()
             .then(data => {
                 var output = '';
                 for (var index = 0; index <= endRow; index++) {
-                    output += bikeRacks[index].id + ';' + bikeRacks[index].lng + ';' + bikeRacks[index].lat + ';' + bikeRacks[index].num_spaces + ';' + data[index] + '\n'
+                    output += bikeRacks[index].id + ';' + bikeRacks[index].lng + ';' + bikeRacks[index].lat + ';' + bikeRacks[index].num_spaces + ';' + data[index] + '\n';
                 }
                 fs.writeFile("results.csv", output, function (err) {
                     if (err) {
@@ -42,4 +42,4 @@ csv()
                     }
                 });
             });
-    })
+    });

@@ -19,7 +19,7 @@ var s = fs.createReadStream('input.txt')
             console.log('Error while reading file.', err);
         })
         .on('end', function () {
-            writeFile('output.txt', output)
+            writeFile('output.txt', output);
         })
     );
 
@@ -28,7 +28,7 @@ function writeFile(fileName, output) {
         if (err) {
             return console.log(err);
         } else {
-            console.log("FILE SAVED, OUTPUT LINE COUNT: " + count)
+            console.log("FILE SAVED, OUTPUT LINE COUNT: " + count);
         }
     });
 }
